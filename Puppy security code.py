@@ -1,5 +1,5 @@
-def create_permitations(numpad_list):
-    def permutation_looper(first_number_index = 0):
+def create_permutations(numpad_list):
+    def permutation_output(first_number_index = 0):
         n = len(numpad_list)
 
 
@@ -9,4 +9,4 @@ def create_permitations(numpad_list):
 
 
 
-create_permitations([1,2,3])
+create_permutations([1,2,3])
