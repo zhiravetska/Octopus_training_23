@@ -56,4 +56,21 @@ for i in range (0,5):
     print(i)
     time.sleep(2)
 
-import 
+import turtle
+#1
+#t = turtle.Pen()
+#t.forward(50)
+#t.left(90)
+#t.forward(50)
+#t.left(90)
+#t.forward(50)
+#t.left(90)
+#t.forward(50)
+#print(t)
+#2
+t_t = turtle.Pen()
+for i in range(0,8):
+    t_t.forward(50)
+    t_t.left(45)
+    print(t_t)
+
